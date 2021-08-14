@@ -10,6 +10,7 @@ An example over copy text with HTML, CSS and JavaScript (with JQuery).
 
 # Screenshots
 
-![alt text](screenshots/screenshot1.png)
-
-![alt text](screenshots/screenshot2.png)
+<p align="center">
+  <img src="screenshots/screenshot1.png" />
+  <img src="screenshots/screenshot2.png" />
+</p>
