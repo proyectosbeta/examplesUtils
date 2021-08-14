@@ -1,0 +1,59 @@
+.text {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em 0;
+}
+
+.input_copy_wrapper{
+    width: 450px;
+    padding: 50px;
+    margin : 0 auto;
+}
+
+.input_copy {
+    padding: 15px 25px;
+    background: #eee;
+    border: 2px solid #aaa;
+    color: #000;
+    font-size: .8em;
+}
+
+.input_copy .icon {
+    display: block;
+    max-width: 30px;
+    cursor: pointer;
+    float: right;
+}
+
+.input_copy .icon img{
+    max-width: 30px;
+}
+
+.input_copy .text {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.input_copy_selected {
+    background: #3daee9;
+    color:#fff;
+}
+
+.tooltip {
+  position: absolute;
+  opacity: 0;
+  top: 135px;
+  right: 360px;
+  background-color: #1ab394;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px 20px;
+  text-transform: none;
+  transition: all 0.75s ease;
+  width: 190px;
+}
+
+.tooltip.active {
+  opacity: 1;
+}
